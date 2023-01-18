@@ -13,12 +13,12 @@ header{
 
 nav a {
     text-align: center;
-    color: #606c38;
+    color: #fefae0;
     text-decoration: none;
 }
 
 nav a:hover{
-    background-color: #fefae0;
+    background-color: #606c38;
     color: black;
 }
 
@@ -52,11 +52,11 @@ main section {
 
 .msg {
     background-color: #fefae0;
-    color: #283618;
+    color: #606c38;
 }
 
 footer {
-    background-color: #606c38;
+    background-color: #fefae0;
     color: #283618;
 }
 
@@ -65,15 +65,15 @@ footer {
 }
 
 h4 {
-    color: #606c38;
+    color: #fefae0;
 }
 
 .msg h2 {
-    color: #283618;
+    color: #606c38;
 }
 
 .msg p {
-    color: #283618;
+    color: #606c38;
 }
 
 footer a {
