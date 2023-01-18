@@ -1,0 +1,50 @@
+
+
+
+nav, footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+body {
+    color:black
+}
+
+a {
+    font-size: 1em;
+    color: yellow;
+    margin: 40px;
+    line-height: 1.5em;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+footer p {
+    color: yellow
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+#active {
+    background-color: black;
+    color: black;
+}
+
+a:hover {
+    background-color: transparent;
+    color: yellow;
+}
