@@ -1,25 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rowdies:wght@300&display=swap');
+/*font-family: 'Nunito', 'Verdana', sans-serif;
+font-family: 'Rowdies', 'Optima', cursive;*/
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
 body {
+    font-family: 'Nunito', 'Verdana', sans-serif;
     background-color: #283618;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #fefae0;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.logo {
+    width: 80px;
+}
+
 nav a {
     text-align: center;
     color: #283618;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
     background-color: #606c38;
     color: black;
+}
+
+h2 {
+    margin: 0;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -37,12 +58,17 @@ main section {
 #background {
     height: 725px;
     background-color: #606c38;
+    margin-bottom: 200px;
 }
 
 .book, .join {
     background-color: #606c38;
     color: #283618;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -50,18 +76,30 @@ main section {
     color: black;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
     background-color: #fefae0;
     color: #606c38;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 footer {
     background-color: #fefae0;
     color: #283618;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
+    font-family: 'Nunito', 'Optima', cursive;
     color: #fefae0;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -70,10 +108,13 @@ h4 {
 
 .msg h2 {
     color: #606c38;
+    font-family: 'Nunito', 'Optima', cursive;
 }
 
 .msg p {
+    font-size: .8em;
     color: #606c38;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -91,6 +132,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -103,4 +145,16 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid #fefae0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
